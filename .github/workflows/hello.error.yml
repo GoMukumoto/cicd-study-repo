@@ -2,7 +2,7 @@ name: HelloError
 on: push
 jobs:
   hello:
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest # fixed
     steps:
       - run: echo "Hello, war world"
       - uses: actions/checkout@v4
